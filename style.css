@@ -1,0 +1,158 @@
+body{
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height:100vh ; 
+    color: white;
+}
+
+.container {
+ margin-top: 25px; 
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+ul a{
+    margin: 10px;;
+text-decoration: none;
+color: brown;
+}
+
+.logo img{
+    height: 100px;
+    width: 300px;
+
+}
+.form-group{
+    padding: 10px;
+}
+
+.form-group input{
+    padding: 10px;
+    width: 30rem;
+}
+
+.form-group label{
+    font-size: 2rem;
+    text-transform: lowercase;
+    font-family: cursive;
+}
+
+button{
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(70, 233, 11);
+    color: rgb(244, 98, 7);
+}
+ 
+.content{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+.left-content i{
+    font-size: 5rem;
+    border: 1px solid red;
+    background-color: rgb(232, 116, 7);
+    width: 9rem;
+    height: 6rem;
+}
+
+:right-content i{
+    font-size: 5rem;
+    border: 1px solid red;
+    background-color: rgb(232, 116, 7);
+    width: 9rem;
+    height: 6rem;
+}
+
+left-content h3{
+    font-size: 5rem;
+    border: 1px solid red;
+    background-color: rgb(232, 116, 7);
+    width: 9rem;
+    height: 6rem;
+
+}
+
+
+.programs {
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .programs h2 {
+        color: #333;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .card {
+        background: #f9f9f9;
+        width: 300px;
+        margin: 15px;
+        padding: 20px;
+        border-radius: 8px;
+        text-align: left;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .icon {
+        font-size: 40px;
+        color: #ff5733;
+        margin-bottom: 10px;
+    }
+
+    .card h3 {
+        margin: 10px 0;
+    }
+
+    .card a {
+        color: #ff5733;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .offer{
+        background-image: url(cta-bg.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 20rem;
+        margin-top: 20px;
+    }
+
+     .content-box{
+        text-align: center;
+        color: #f9f9f9;
+        height: 150%; 
+        margin-top: 20px;
+        
+    }
+
+    .content-box a{
+        /* border: 1px solid red; */
+        margin-top: 20px;
+        padding: 20PX;
+        text-decoration: none;
+        color: white;
+
+    }
+     ontent-box a{
+        
+        margin-top: 20px;
+        padding: 20PX;
+        text-decoration: none;
+        color: rgb(74, 3, 3);
